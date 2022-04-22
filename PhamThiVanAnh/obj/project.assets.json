@@ -9889,11 +9889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\PhamThiVanAnh.csproj",
+      "projectUniqueName": "C:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\PhamThiVanAnh.csproj",
       "projectName": "PhamThiVanAnh",
-      "projectPath": "D:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\PhamThiVanAnh.csproj",
+      "projectPath": "C:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\PhamThiVanAnh.csproj",
       "packagesPath": "C:\\Users\\PDH\\.nuget\\packages\\",
-      "outputPath": "D:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\obj\\",
+      "outputPath": "C:\\P34_119001493_PhamThiVanAnh\\PhamThiVanAnh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PDH\\AppData\\Roaming\\NuGet\\NuGet.Config"
