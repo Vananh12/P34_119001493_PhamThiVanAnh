@@ -1,8 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+//using PhamThiVanAnh.Data;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddDbContext<CategoryContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("CategoryContext")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
