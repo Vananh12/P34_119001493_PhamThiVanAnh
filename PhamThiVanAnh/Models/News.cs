@@ -23,8 +23,13 @@ namespace PhamThiVanAnh.Models
 
         [Required]
         public string Author{get;set;}
+        
         [ForeignKey("CateID")]
         public DateTime CreatedAt{get;set;}
+
+        public Category? Category{get;set;}
+
+        public ICollection<Comment>? comments{get;set;}
         
 }
 }
